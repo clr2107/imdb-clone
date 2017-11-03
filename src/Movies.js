@@ -19,6 +19,7 @@ class Movies extends Component {
       .catch((error) => {
         console.error(error);
       });
+
     // $.ajax({
     //   url: 'https://api.themoviedb.org/3/movie/popular?api_key=16dc9f1a248a9e17f32075d608f5cfa0&language=en-US&page=1'
     // })
