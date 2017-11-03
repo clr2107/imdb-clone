@@ -34,20 +34,16 @@ class Movies extends Component {
     // })
 }
 
-render() {
-  return (
-    <section id="movies-container">
-    <h3>Movies</h3>
-    <ul>
-    {
-      this.state.movies.map((movie, i) => <Movie movie={movie} key={i}/>)
-    }
-
-    </ul>
-    </section>
+  render() {
+    return (
+      <section id="movies-container">
+      <h3>Movies</h3>
+      <ul>
+        {this.state.movies.map((movie, i) => <Movie movie={movie} key={i}/>)}
+      </ul>
+      </section>
     )
   }
-
 }
 
 export default Movies;

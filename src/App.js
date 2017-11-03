@@ -3,8 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Movies from './Movies';
 import Movie from './Movie';
-import Search from './Search';
+// import Search from './Search';
 import $ from 'jquery'
+
 class App extends Component {
   constructor(){
     super();
@@ -49,12 +50,9 @@ class App extends Component {
           <input type="submit" value="Submit"/>
         </form>
         {this.state.results.map( (movie, i) => <Movie key={i} movie={movie}/> )}
-
         <h2>Popular Movies</h2>
         <Movies />
-
-
- </div>
+      </div>
     );
   }
 }
