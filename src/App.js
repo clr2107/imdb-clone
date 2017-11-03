@@ -43,9 +43,7 @@ class App extends Component {
     return (
       <div>
         <h1>Welcome to IMDB Clone</h1>
-
-
-        <h3>Search for a movie</h3>
+        <h3>Search for a movie by title</h3>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <input value={this.state.searchQuery} onChange={this.handleChange.bind(this)} />
           <input type="submit" value="Submit"/>

@@ -9,7 +9,7 @@ class Movie extends Component {
       <li className="movie">
         <div className="movie-content">
         <p>
-          <h5><span className="title">{movie.title}</span></h5><br />
+          <h4><span className="title">{movie.title}</span></h4><br />
           <span className="overview">Description: {movie.overview}</span><br />
           <span className="release-date">Release date: {movie.release_date}</span><br />
           <img src={movie_url + movie.poster_path}/>

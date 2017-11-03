@@ -1,10 +1,25 @@
-body {
+
+div, p, h1, h2, h3, container, ul {
   padding-left: 10px;
   font-family: sans-serif;
 }
 
-#movie-content {
+nav {
+  background-color: DarkBlue;
+
+}
+
+p {
+  font-family: Georgia;
+
+}
+
+/*div {
+
+
   display: block;
   margin: auto;
   width: 40%;
-}
+  text-align: center;
+
+}*/
