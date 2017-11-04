@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Movies from './Movies';
+import ReactPaginate from 'react-paginate'
 import Movie from './Movie';
 // import Search from './Search';
 import $ from 'jquery'

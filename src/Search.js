@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+impor React, { Component } from 'react';
 import $ from 'jquery'
 import Movie from './Movie'
 
