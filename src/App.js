@@ -44,8 +44,9 @@ class App extends Component {
   render() {
     return (
       <div>
+      <container id="all-movies">
         <h1>Welcome to IMDB Clone</h1>
-        <h3>Search for a movie by title</h3>
+        <h3>Search for movies by title</h3>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <input value={this.state.searchQuery} onChange={this.handleChange.bind(this)} />
           <input type="submit" value="Submit"/>
@@ -53,6 +54,7 @@ class App extends Component {
         {this.state.results.map( (movie, i) => <Movie key={i} movie={movie}/> )}
         <h2>Popular Movies</h2>
         <Movies />
+        </container>
       </div>
     );
   }
